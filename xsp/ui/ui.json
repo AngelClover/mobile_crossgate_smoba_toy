@@ -1,0 +1,43 @@
+{
+	"style" : "default",
+	"config" : "save_new.dat",
+	"width" : 1000,
+	"height" : 900,
+	"cancelscroll" : true,
+	"countdown" : 3,
+	"align" : "left",
+	"cancelname" : "取消",
+	"okname" : "确定",
+	"views" : [
+	{
+		"text" : "基本功能",
+		"type" : "Page",
+		"views" : [
+		            {
+               "align" : "center",
+               "color" : "125,0,0",
+               "size" : 30,
+				"bg" : "0,125,0",
+               "text" : "Angel出品",
+               "type" : "Label"
+            },
+            {
+               "id" : "functionType",
+               "list" : "魔力弹窗消除, 魔力免三秒, 魔力自动确定, 农药挂机",
+               "select" : "0@1@2",
+               "size" : 50,
+               "type" : "CheckBoxGroup",
+               "orientation" : "vertical"
+            },
+			{
+               "id" : "phoneType",
+               "list" : "iphoneX, iphone7",
+               "select" : "0",
+               "size" : 50,
+               "type" : "RadioGroup",
+               "orientation" : "vertical"
+            }
+		]
+ 	}
+	]
+}
